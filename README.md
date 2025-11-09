@@ -29,9 +29,6 @@ Libraries: ncurses
 Platform: Linux
 
 🧾 How to Run
-# Clone the repository
-git clone https://github.com/aryanbhardwaj/System-Monitor.git
-
 # Move into the directory
 cd System-Monitor
 
@@ -39,6 +36,7 @@ cd System-Monitor
 g++ -o system_monitor src/*.cpp -Iinclude -lncurses
 
 # Run
+make
 ./system_monitor
 
 👨‍💻 Author
