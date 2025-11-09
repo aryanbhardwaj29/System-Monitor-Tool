@@ -28,4 +28,25 @@ Libraries: ncurses
 
 Platform: Linux
 
+🧾 How to Run
+# Clone the repository
+git clone https://github.com/aryanbhardwaj/System-Monitor.git
+
+# Move into the directory
+cd System-Monitor
+
+# Compile
+g++ -o system_monitor src/*.cpp -Iinclude -lncurses
+
+# Run
+./system_monitor
+
+👨‍💻 Author
+
+Name: Aryan Bhardwaj
+College: ITER – SOA University
+Branch: Computer Science (Data Science)
+Project: Wipro Capstone Project 2025 — System Monitor Tool
+Email: baryan2910@gmail.com
+
 Build Tool: g++
