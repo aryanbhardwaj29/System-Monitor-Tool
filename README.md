@@ -1,21 +1,31 @@
-# System Monitor Tool
+🚀 System Monitor — C++ Terminal Dashboard
 
-A simple system monitor tool for Linux that displays real-time system information and process list.
+A terminal-based system monitor built in C++ using the ncurses library.
+It provides a real-time view of CPU usage, memory consumption, and active processes by reading data from Linux’s /proc filesystem.
 
-## Building
+🧠 Project Overview
 
-Run `make` to build the project.
+This project recreates the core features of tools like top and htop, but from scratch — to understand how system-level monitoring works internally.
+It displays dynamic system statistics inside the terminal with color-coded visuals for better readability.
 
-## Running
+⚙️ Features
 
-Run `./system_monitor` to start the monitor.
+📊 Real-time CPU and Memory tracking
 
-## Features
+🧩 Live Process List with sorting options
 
-- Display system memory usage
-- List top 20 processes by memory usage
-- Real-time updates every 2 seconds
+⚡ Color-coded UI for usage levels
 
-## Exiting
+🧠 Modular design (System Info, Process Info, UI Manager)
 
-Press Ctrl+C to exit.
+🛠️ Built completely from scratch in C++ using ncurses
+
+🧱 Tech Stack
+
+Language: C++
+
+Libraries: ncurses
+
+Platform: Linux
+
+Build Tool: g++
